@@ -1,0 +1,209 @@
+{
+  "HorizonLayout": [
+    {
+      "layout":"logo",
+      "name":"Your Football Shirt",
+      "image":"https://www.yourfootballshirt.com/wp-content/uploads/2020/05/cropped-logo_transparentYFS.fw_-768x644.png",
+      "showMenu":true,
+      "showLogo":true,
+      "showSearch":true
+    },
+    {
+      "layout":"bannerImage",
+      "isSlider":false,
+      "items":[
+        {
+          "image":"assets/images/bannerhome.png",
+          "padding":0.0,
+          "category":null,
+          "radius":0.0
+        }
+      ]
+    },
+    {
+      "layout": "header_search",
+      "text": "Search for a product"
+    },
+    {
+      "layout": "bannerImage",
+      "isSlider": true,
+      "autoPlay": false,
+      "showNumber": false,
+      "design": "default",
+      "showBackGround": true,
+      "radius": 2.0,
+      "height": 0.15,
+      "items": [
+        {
+          "category": 72,
+          "image": "assets/images/clubs.fw.png",
+          "padding": 15.0
+        },
+        {
+          "category":185,
+          "image": "assets/images/nations.fw.png",
+          "padding": 15.0
+        }
+      ]
+    },
+    {
+      "name": "Latest Products",
+      "image": "",
+      "layout": "fourColumn",
+      "isSnapping": true
+    },
+    {
+      "name":"YFS CLEARANCE",
+      "onSale":true,
+      "layout":"fourColumn",
+      "isSnapping":true
+    },
+    {
+      "name":"BEST BABIES IN TOWN",
+      "featured": true,
+      "layout":"fourColumn",
+      "isSnapping":true
+    },
+    {
+      "layout": "bannerImage",
+      "items": [
+        {
+          "attribute": 231,
+          "image": "assets/images/worn.png",
+          "padding": 5.0
+        },
+        {
+          "blog_category": 910,
+          "image": "assets/images/worn2.png",
+          "padding": 5.0
+        }
+      ]
+    },
+    {
+      "isSnapping":true,
+      "layout":"fourColumn",
+      "category":104,
+      "name":"ENGLISH TEAMS SHIRTS"
+    },
+    {
+      "isSnapping":true,
+      "layout":"fourColumn",
+      "category":105,
+      "name":"GERMAN TEAMS SHIRTS"
+    },
+
+    {
+      "layout": "bannerImage",
+      "items": [
+        {
+          "category": 127,
+          "image": "https://www.yourfootballshirt.com/wp-content/uploads/2021/03/psg.jpg",
+          "padding": 5.0
+        },
+        {
+          "blog_category": 903,
+          "image": "https://www.yourfootballshirt.com/wp-content/uploads/2021/04/flocages2EN.jpg",
+          "padding": 5.0,
+          "radius":0.0
+        }
+      ]
+    }
+
+  ],
+  "Setting": {
+    "MainColor": "#3FC1BE",
+    "ProductListLayout": "list",
+    "StickyHeader": false
+  },
+  "TabBar": [{
+    "layout": "home",
+    "icon": "assets/icons/tabs/icon-home.png",
+    "label": "HOME"
+  },
+    {
+      "layout": "vendors",
+      "categoryLayout": "sideMenuWithSub",
+      "icon": "assets/icons/tabs/soccer.png",
+      "label": "SHIRTS"
+    },
+    {
+      "layout":"page",
+      "title":"FAQ - Frequently Asked questions",
+      "data":{
+        "id":1,
+        "subHeader":"This is sub heading",
+        "container":{
+          "header":{
+            "background":"#FFFFFF",
+            "text":"About US",
+            "align":{
+              "y":0.8,
+              "x":-1
+            },
+            "color":"#FFFFFF",
+            "padding":{
+              "vertical":10,
+              "horizontal":20}
+          },
+          "height":0.5,
+          "image":{
+            "align":{
+              "x":1,
+              "y":1
+            },
+            "width":1,
+            "url":"https://spic.one/wp-content/uploads/2018/08/e052b0077cff56f03b0c.png",
+            "height":0.5}
+        },
+        "description":"This is description"
+      },
+      "showChat":false,
+      "icon":"assets/icons/tabs/faq.png",
+      "label": "FAQ",
+      "pos":600,
+      "pageId":116656,
+      "pageTitle":"hhhh",
+      "url":"https://www.yourfootballshirt.com/en/faq-mobile"
+    },
+
+    {
+      "layout": "cart",
+      "icon": "assets/icons/tabs/icon-cart2.png",
+      "label": "CART"
+    },
+    {
+      "layout": "profile",
+      "icon": "assets/icons/tabs/icon-user.png",
+      "label": "MY YFS",
+      "showChat": true
+    }
+  ],
+  "searchSuggestion": [
+    "PSG",
+    "France",
+    "Manchester United",
+    "Bayern Munich",
+    "FC Barcelona"
+  ],
+  "OnBoarding": {
+    "data": [{
+      "title": "Welcome to Your Football Shirt",
+      "image": "assets/images/splash2.fw.png",
+      "desc": "YFS is the first ever marketplace for authentic football shirts. ",
+      "background": "#FFF3F2"
+    },
+      {
+        "title": "Sell your football shirts !",
+        "image": "assets/images/splash1.fw.png",
+        "desc": "YFS allows you to sell your own football shirts in few clicks.",
+        "background": "#F2FFFC"
+      },
+      {
+        "title": "Let's Get Started",
+        "image": "fogg-order-completed.png",
+        "desc": "We are thousands, would you join us?",
+        "background": "#F9F2FF"
+      }
+    ]
+  }
+}
